@@ -1,4 +1,4 @@
-package guru.springframework.msscbreweryclient.web.model;
+package escrosa.springframework.msscbreweryclient.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,6 +18,6 @@ public class BeerDto {
 
     private UUID id;
     private String beerName;
-    private String beerStyle;
+    private BeerStyleEnum beerStyle;
     private Long upc;
 }

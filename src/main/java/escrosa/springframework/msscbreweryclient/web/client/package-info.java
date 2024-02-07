@@ -1,0 +1,1 @@
+package escrosa.springframework.msscbreweryclient.web.client;
